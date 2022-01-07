@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje 
 var data = { imie: "Maria", nazwisko: "Hućko", klasa: "3i1", grupa: "2" }
 
 app.get("/", function (req, res) {
-    res.send(`<p style="font-family: monospace, sans-serif;">wejdź w /data</p>`)
+    res.send(`<p>wejdź w /data</p>`)
 })
 
 app.get("/data", function (req, res) {
