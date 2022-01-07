@@ -1,16 +1,16 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "test",
-  "main": "server.js",
   "dependencies": {
+    "express": "^4.17.2",
     "node": "^17.3.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "name": "test",
+  "description": "test420",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
