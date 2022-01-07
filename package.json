@@ -4,8 +4,7 @@
   "description": "test",
   "main": "server.js",
   "dependencies": {
-    "node": "^17.3.0",
-    "node-bin-setup": "^1.0.6"
+    "node": "^17.3.0"
   },
   "devDependencies": {},
   "scripts": {
